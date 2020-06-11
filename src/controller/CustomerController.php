@@ -39,6 +39,7 @@ class CustomerController
         include "src/view/customers/listCustomers.php";
     }
 
+<<<<<<< HEAD
     public function updateCustomer()
     {
         if ($_SERVER["REQUEST_METHOD"] == "GET") {
@@ -57,6 +58,8 @@ class CustomerController
         }
     }
 
+=======
+>>>>>>> a34a706d36eab21ffc928348e20645e722f89adf
     public function deteleCus($id)
     {
         $this->customer->delete($id);
